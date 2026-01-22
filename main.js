@@ -10,24 +10,11 @@ let box = document.querySelector(".box")
 let completBox = document.querySelector(".complet")
 let yet = document.querySelector(".impty")
 
-// console.log(localStorage.getItem("todolist") !== null)
-// if(localStorage.getItem("todolist") !== null)
-//   {
-//     let todolist = JSON.parse(localStorage.getItem("todolist"))
-//     if(Object.keys(todolist).length === 0 )
-//     {
-//       completBox.style.display = "none"
-//     }else{
-//       completBox.style.display = "flex"
-//     }
-//   }
 
-// localStorage.clear()
 chickItem()
 addOldItem()
 addOldItemcomplet()
 
-// completBox.style.display = "flex"
 addBtn.addEventListener("click",() => {addTodo(); chickItem()})
 
 
@@ -267,5 +254,6 @@ function deleteCompletItem(id) {
       yet.style.display = "inline-block"
     }
 }
+
 
 
