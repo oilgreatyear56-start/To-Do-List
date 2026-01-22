@@ -1,7 +1,7 @@
 /*
 = To Do List Add
 = By: 3liaymn
-= v 1.5
+= v 2.0
 */
 
 let inputTittle = document.querySelector("#tittle")
@@ -252,4 +252,5 @@ function deleteCompletItem(id) {
       yet.style.display = "inline-block"
     }
 }
+
 
